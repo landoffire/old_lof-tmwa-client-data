@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="50" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="Angela's House"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="inn2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="515" name="inn_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/inn_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="547" name="inn_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/inn_x3.png" width="512" height="192"/>
+ </tileset>
+ <layer name="Ground1" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VMQqAMAxA0Xr/42gP181VSoUiaEh9w9vzSSCtlNIAAAAAAAAAAOAj+zYnek4d+TrqIh1XxyIdfUtN3DG6teg5n3ascFc6dLzRMfon0XP+cR93PzBbxyr7yNzRN0XPoAMAAAAAAACAGSdNjq4gIE4AAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VuQrCQABF0YAL7o2CuDYGcSmTuP7/R6XzCRGGQZ0EhEniLQ4jk+ZdpjANgiAFAAAAAAAAAAAAAAA/1ZKmdKQrPelLI7t/ffe9M09H+81pd/ne6XKSs1xkJnNZyFim2bktwU6X587Jh9Ps8r3TZSNhdu7lIEfrPizBziIduy9dvne6RIar3ORu3Ucl2Fmkw2Z2+d5ZpCOWJPudBPV5DzrooKPeHQMZyqjiHXV5j6WsZF3xjqq9h/m/HVvbzW++d/7Le9hNvjfQAQAAAAAAAAAAAADI4wF9j9dwIE4AAA==
+  </data>
+ </layer>
+ <layer name="Ground3" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RwY1BURiG4XM7YKMYpgHm2lhydUB7ZipABShhSrD0ZVYTYSVxTDxP8m7O2XzJXwoAAAAAAAAAAP/NoPaAB7Rpeudv2JQySh/NMxe9ty4t08/V+zhNcofP1LrH06zSOp1v/M1zh0Xq3OMl9FK/9og3tUlf6bv2EH5t0y7t/7zNKm2hlEM6plPtIQAAAAAAAAAAPOQCO2up+yBOAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SPQ4BQRjH4YlOfIQejXCXvZKb4QQ4BjdA781mK0RiI3lt8jzJr5mZ4l9MKQAAAAAAAAAAdME22kX77CHUDtExOmUPAWhhEk2zR/zQJnvAF4bRqGmcvIVSZtG8aRFVuXNaW/Zez/pPZ4M3b/7NObpE9+wh1K7R7cP9Kv7UugP/CgAAAAAAAAC66AG35HsrIE4AAA==
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PMQoAMAgDQP//43bqKkI3oUXuIENwMREAAAAAAAAAAAAAAHRYKbXX28+m7Mj26weaTNkBAAAAAAAAwN0BBWo4XSBOAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SwQqEMAxF0dL//+hZuZEsgkZixlM4IK7epd1rrQ0AAAAAAAAAAHzaesGGiobj7NP3NNHp3lTRMK0ps31CR9QS/e/eWPGmJnRku7p3Veye0PEv9xFt797z1F1MaMue7p13e7p3XW3p3qADAAAAAAAAgIwfRnE0hyBOAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="50">
+  <object x="736" y="960" width="32" height="32"/>
+  <object name="To Outside" type="warp" x="736" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="031-1"/>
+    <property name="dest_x" value="3040"/>
+    <property name="dest_y" value="2592"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="768" y="736" width="32" height="32"/>
+  <object name="To Outside" type="warp" x="2336" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="031-1"/>
+    <property name="dest_x" value="2880"/>
+    <property name="dest_y" value="3712"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

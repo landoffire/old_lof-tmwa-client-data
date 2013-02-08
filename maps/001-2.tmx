@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="160" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="South Tulimshar Indoor"/>
+ </properties>
+ <tileset firstgid="1" name="Inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Inn2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="Ground1" width="160" height="100" opacity="0.99">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dQW7CMBBA0XD/0xROQm9QLsG2bFBVRIolOh6P/RZvh+Ih+YqFEOG6bdsVAAAAAAAAAAAAAAAAACb3cfh/o87ce47q6/Xu7xjQYsZ1GGWOiPVOf1yv7JZ6Xsu7U8Nres+8N9MM/c18/4syyrzVezjfjvn5sMYxcL1R+mu5xz3bD6LOyar9fd2OeXH/S73mK/eXca71tz9zy+elyP1pxh6q9/e4V480c/a5Jq6/Ht3pbz5V9lzmpD8y7TX0znch2e+JOvRHJvsvAAAAAAAAAAAAAAAAAMBvEb+/jP495ggzsG5/58PPc0Bbn42ZfZ6Zp79XzwG9q/5s2hVU7G+EGdCf/urTH/rT36r0h/70tyr9oT/9rUp/6O+9mTP+gxP9uf/Vpz/0pz8AAAAAAAAAAAAAAAAAAAAA2nwDXahSoQD6AAA=
+  </data>
+ </layer>
+ <layer name="Ground2" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dPXcMURgH8BGh8FJsvHQKRDoFQYFWp9X5CD6ChloTtcOhjRKNVhQo8SH4AGndPWbOua7Z7A4zd2Znf8Xv3OxMss+Te/+72Zw9e2e/KIp9AAAAAAAAAAAAAAAAVsahYD04XI5HkttNx6MZe06P5+7roD7GUC+HSbBRjqeT26eS29V4Mbp9Lbge3IjOT+dprcM5qWrvRsd2o/pnyvFO0nfuPnLV2+yoXg7ngwstj12uedzz++B58KL8uqq/VY73kr5y99FFva2M9XK40tCb4G3p3Yzv6XLN054fBY8X7D333C17vdz5217gd/wQ7EWGuO65+5g1b/LX/lrW5e9qxnlJ7/ug2um5Zc/DTvA0Y70h5C99bDd9/hvCY2Ys+XsZvKpZn+2O6uUQv55bxF4xzPwt8tph2fPXx1x3LX0+a2oo+Vskj/IwPGPNnzwsh6/Btwaq3E2//t7jWsveOMRr1OR/SWtNG/71b5n80Qb5o0/yR5/kDwAAAAAAAAAAAAAAAJil2lM43vd5rVh8P+h5P9flPshVrarO3ejcenKu73mm3qT4e3/ntse2e473nL4U1blfjpvlsalqr+q+55l6Xez/nI5d9Hw2qlHVeZAci8/1Pc/U6+Lzv11/HninqN8H9GHGHljd/NXtAzr1JGMPrG7+4vs+FhwPTgTPMvZAu2vZdB/eeeJrM3SZv9jrGcdPDmCeOXgt/3cf1NTHIn/+Zjk3gHlmdfN3eQDzzOrmz+u/4Rpb/rz/sVzGlr9J8fu6lxuRyQDmmfn5+xH8DD4Fn4MvxZ+ZuhncCm4nx+Pvr+6jr/xV1730/sdyGNvzn9d/y6Van6bXAZknvjaI/NHmWva99kPoAfmLzbsOdd/zzLjz5/kPAAAAAAAAAAAAAAAAAAAAYDX8AgfptVUA+gAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3duY+NURzG8TdKhAKNraLBv6BRGEvFiFgKjCWWxDZEh8ROLImtmJKxtoyttfYo0JBQWcIkChrP4Zzk5HjfO++9c8+7zP1+kifnXef9zdyTO++9N/ndJAEAAAAAAAAAAAAAAAAAAAAAAAD+11d2ASn6MpaLVnQdVfm9i3Q7WL+n3FcelFBLVRzJ2D6h0CrqbVB5r3wY4rhHwfoz5bnyIkZRNXGx7AJGADP/vis/Wjj3ZLC+TNk37Irqo185nrJ9nDK+4Frqysw//+/1Lcc58+34NGVftx3XKGuHVVn1ffKW7ygDGfuQ7UuQrznOWW7HtPlnbFd2KDuHXV1j5jG/62Ug47hryvUI15+uLFAWKo/t+iJlsfIxwvWcQS9Gpz3fmvnXlWTPv/3KAeVg5DrMY/7ES1Y9RneDfa0yc2yFstLWYq6/SlmdxJ1/7n7djXWff+uUHmWvHfd4yybr7bjRjpvseVmP9xnlrHIuXsl/vVReeXkd+Xqhn8pmZYutxVx/q7LN7ms395zn7tfdWPf5t0vZ3UR6k/Tnv2necp7X1IDT1eRoNJp/rb6mzmNppJ+L6nP/69LMLbIQACjBaGWMMlaZpcxW5pRaETrJZGWKMjVYBgAAAAAAAAAAAAAAAAAAAAAAAAAA6ER16Tc8quwCkMsh5bByVDlmt00MjpnkLZs+0K6/8YzguJltrw4j3XnlgnJJuZzj+LAPdBX4vbZc/0fXk8z1h0Q1XVGuJvF6hBbB77Xl+j86rj8kqsnvK9nTYH2Jd47pV7khOCZc97cVyfV/dFx/SFRT3t6Tpufk5+Rff+hm+lX2Rqg57LE/L8I1gDzof4QqM/1aT5ddBHK5odxsYdutjLEI4XfgoL5+Kb9b2PYwYwQAtFfe9yr5jk7E4D6zGQrf0Vkv7r7ujfJWeRfsz3qvwz8+7X6x3dxnNgDQaU40efypKFUA+TD/ULT+sgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAFH8AilG0ygD6AAA=
+  </data>
+ </layer>
+ <layer name="Over" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dPU6EQBgGYC7gqfQOdrbewKxa+ldZ+nsyPYKJ2rp2jsmaIGHZQNj5FuZ5ki8wZCa8BRCqb6oKAAAAAAAAAAAAAAAAYJoOowNQjLPG+CDVcUSQQIvoAPyzHx2gxXWqm+gQhHiLDpDcp3qIDjGCj0Z9rq6/r8alOOox93vke78MXLeL32WGuY0OAC32ogNQtJPoAJl9bSigPDne/d97LKvN36C/OQAAQLyuf/ahBQAAAAAAAAAAAAAAAAAAlEOP/fl5rVXbeKw1Y2j22F9U+tADMF2PqZ4GXHtec8yhuQcOwJx17WekJxfbNpf9jJimi1SX0SEAoDCnPeefbyUFrHdVO/f8kdtd7dzzt7v69rYf0hs/V+aubAAAAAAAAAAAAAAAAAAAAADMww/sfBnmAPoAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bS27DMAwFwMD3P3RX2RiNIzEWKclDYJAfUlHkQ3c5jtfrAAAAAAAAAAAAAAAAAACm9q6n9THLvUfcqbXO35m1z9H9VZ2TdW7mXlvv2TKDUXOJ1up5yD6vMoff7tlT1dnLmtnV66xzVxPdZ+Xeoz1n91G92xVE5/Rp3hlzj9bI2Z3PkL/+Gf6agf/2MKrnWfKXed6O7qys/EX7rp41z81f9ZwZnz+7pted+ZI/eskflUZU9Z1Yh/wBAAAAAAAAAAAAAAAAAMC8Vvg98NXf95vkfc2yy5aMzdIre/qUL///1pJRI3tuuU/1jNk3fxXnM2aX0ffez8+PGfk7v5a/tayev5aqnjH37TJSmT1Xz5P983fVe/U8ie+w5/Po90b1Ln9rWjF/kaqeM/ftsnr3M/TAc/PX23f1jNkrf9XnI38tZ446HwAAAAAAAAAAAAAAAAAAAIA6f7l6EjUA+gAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="To Outside" type="warp" x="800" y="1120" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="1024"/>
+    <property name="dest_y" value="2304"/>
+   </properties>
+  </object>
+  <object name="To Second Floor" type="warp" x="1408" y="768" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="2080"/>
+    <property name="dest_y" value="800"/>
+   </properties>
+  </object>
+  <object name="To First Floor" type="warp" x="2048" y="800" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="1376"/>
+    <property name="dest_y" value="800"/>
+   </properties>
+  </object>
+  <object name="To Bedroom" type="warp" x="2144" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="3296"/>
+    <property name="dest_y" value="736"/>
+   </properties>
+  </object>
+  <object name="To Deposit" type="warp" x="2432" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="4192"/>
+    <property name="dest_y" value="736"/>
+   </properties>
+  </object>
+  <object name="To Casino" type="warp" x="2176" y="704" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="1024"/>
+    <property name="dest_y" value="2304"/>
+   </properties>
+  </object>
+  <object name="To Second Floor" type="warp" x="3264" y="704" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="2144"/>
+    <property name="dest_y" value="928"/>
+   </properties>
+  </object>
+  <object name="To Second Floor" type="warp" x="4160" y="704" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="928"/>
+   </properties>
+  </object>
+  <object name="To Second Floor" type="warp" x="1024" y="2336" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-2"/>
+    <property name="dest_x" value="2208"/>
+    <property name="dest_y" value="736"/>
+   </properties>
+  </object>
+  <object name="To Outside" type="warp" x="2272" y="2336" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="001-1"/>
+    <property name="dest_x" value="2400"/>
+    <property name="dest_y" value="1344"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

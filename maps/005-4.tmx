@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="75" height="50" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Electricity Boss Cave"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="131" name="arena" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png" width="512" height="512"/>
+ </tileset>
+ <layer name="ground" width="75" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VwREBMRSA4T2gAqsFVIAK2FoUYMwoXtxyWIsR5mX3O3z35J+Xl7ZpmhYAAAAAILNONkFsA/QYskv2QRwC9BhyTE5BdAF6DFkl8yCWAXpoVXera+Wt+s7/jkuhfjW16nMr1GEKrUo7a2Wunii1n6bQyly93ie/kM9oba3+pe9/1Wo8b/Bbi+yuswDniSyfy7HPhVZaRaTVZx773V4HAAAgkjvKShSPmDoAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="75" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XwQ3AIAwDQPbfpWxANygzkQn4kAipupP8s/x3awAAAAAAnHgiPbFXvXvTiLyJverdm77ITOxV7wIAAOz4OAAAAAAA/7EAB5G3j5g6AAA=
+  </data>
+ </layer>
+ <layer name="Over" width="75" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VMQqAMBAEwLT6AfX/tf5A32YOG7sgSYjFDGx3LOSKS0oAAAAAAAAAAPDYc46Gc717RzpzroZzvXtHmXLWimyvrqWya+72SgC+iL8h7nvcdbe5LPZlTwAAAPzJDXV1zSKYOgAA
+  </data>
+ </layer>
+ <layer name="Collision" width="75" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SQQrAIAxFQc/uyXuBYhsQf8AJzE4UH5ljjAkAAAAAALT0NX/PVc+n/72z0alJd9BKq46tTrZMd+i2V6v30h26tVpNuoNWWnVolWyX7tB1r97eTXfY2azatnrvDW78s1ZadaKVVgAAAHCDB/H4K42YOgAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="75" height="50">
+  <object name="graphics/particles/electricity.red.large.xml" type="particle_effect" x="1699" y="672"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="particle_effect" x="1696" y="1021"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="particle_effect" x="1377" y="1024"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="particle_effect" x="1377" y="672"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="particle_effect" x="672" y="1027"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="particle_effect" x="992" y="672"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="particle_effect" x="992" y="1023"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="particle_effect" x="672" y="672"/>
+  <object name="To Snake Pit" type="warp" x="1152" y="1152" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005-3"/>
+    <property name="dest_x" value="2720"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

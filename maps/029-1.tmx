@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/029-1.png"/>
+  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Candor Island"/>
+  <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="Woodland x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="291" name="Woodland x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2by05UQRCGO/FlJF7WnIXuRCDKxqBClI03NOoDgBdkJ6AG32Aewhjew5VrExO3mpjoxq54KlPUVJ++zBmYOedffAFnkj5MfV1VfRnXnHNrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0TOV5LJgXr8239IwDNf5pf+ZpheL+xHNGsCleu92S53dqfHgZ5cBwodksiBvnQmzscVx3jcodn7Ntxe0gY9wS112EXMTmruTtBFzAyZA5z3JGzPYSYlYVuEDdGsYuJz9SYrZe6AI+ymIXi1ko547qn58axu57zXqv4nHOc74hXoue7ULPXz2fPV/G9N1VKpdf51NiRePqGvjT88Pz3fPN8xc+RsitVZQbZ9UYh8bvoXH/eH57frXgvIvEfOjalRqncfq55bwv5MRtS8Tp0BhrUP+sXPp67ZrnumelwHkXoXXQkovvP1J7eI5jcnHZc9ezAR8jXpqc5MQoxYd0ccHzXHjva61KjWNKjLh+VS5eq0IuiL7vPZims10rNwbGa5YL7g+SkAvUq2EcQ3sQmRsuMo6VX3fq2GssF/SsJYd6xftziofuITxXrfWUdmrl11PPM89F5WPDhb33FYqhzAuKvZ7jVu1gN078Ls9crniuBrwwOjf4jrCv94TkouleluG7jkEdf2ssfc+x6rlnOEmlj/0jdY/Adx2helUJF5QXC577npu1k4WIF+vskubF/hTE6CSh/cZuohOuJfvu+LpW34mv1h4kNzy3IvFvmgenHaeTdvLGpd8NcowqZ/fu1Tr+0ge5eBQZN+Sor3uRnDMsq8dIHxT/hwLpQsZdOwi917deEprrqXDP4L5BPngfkXIuluK/T70kp4+EckLXJ57Tqa5jPWWvJ064N+d+vyTVR2jcpviH6lZfnMTmsT5/WlHvP3Cj/ULW/HHupaw86UN/D8VMnsMylyJ+uOY3rcMI7jGUP6lrYB6b196nHbdx4fo0UK+F7qRCZ4GWH+1Fr8PobnHHDXvVh/r5/OxXiT5mPVdi54ASjg27SfEhvVi5wrmwrZ6hzw5Letgsr4V1Tsj3Kjf6/z3WM31YZ7a5cSMnOXky7fvFnFyQWGe69Bqdyepz8kn6KHEyyznSFANZK3jeLWc6acOHNT9mOUcYrk+pOSN7B9d3jou+uwj5sXyU3DPlrpG7mCNM5YZ9hNZHVo+WfqQby0dJrHJ9zEqOlDqQfbxp3aTXxG3dwVo+5L7U+nu6lCO6f+h1VZMTmSv6DrYkRjQ3rD1k0xzp2t27joHVw0O9uu06EqpVeo5sjPmcaYby46X6/NpJiY8211ZNPrpWr4gXbri24jONplo0KR+h/UfMR9dyRLtJuRPZUv6s99vq5yn52rUckXw0Pu/rOv477v+9O8d6TrzGbnK+D68JnWXF8rXLPniOLtaxTv0eZ+i8sPT5k6yNs0RbcZ2UD8rVXfXvLq15pw3u61bceZ7IM57S2gjynOi4IwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDx+AeulTFDQJwAAA==
+  </data>
+ </layer>
+ <layer name="Road" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3a3U3DMBAA4CzABIhVmAAYgSmAEeCZEZgEi5144I1GgJRadX7qxhfU75MsNWnUnnzK+eqm6wAAAAAAAABg3Ft0AAATUuH8R8sgAGZ4jQ6APcN8pOw9PXAc63e89+gAmKWvYSk6iDPnXlnHy8Lr8/7KOgI/9SkdOK/HXddzdjysZ31O/upTGpwjhnthe6zf9S6yUbKk10o1AZ25q2y09hnwnVt2mY1cvoZPOaZmfXXycoyluSFOGrzW58Yx93BYig6AInUrVj7/8hFrOP8pKgj22K+K9RgdAN1DdABMkqN2xuZavYKyp+gAzsBUz6pGtZeyY/dBWzW/4/wnVaflvtLS50spsx/YTl6fluwFlp4F5bTsBcZIK3ymdWIbbnbjbsZ1erBxNWt1n4Pb33G9G/cniYga6hNMsy4AAAAAAAAAAAAAAADwX3wDnxKyF0CcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZPQrCQBAG0A1aegu9iN7Ck3hAS0tLS0svoSBCWIxofnaS+B4EswFhmS8zgpsSAAAAAAAAAAAAAAClrauUNlX0Lihh+8h5J+vWuvbKp/rLph3zK85QtT9m61PtXp+Ud87Wl2wtkzJedb5mz28hu5mOxaNmyzfvp9+O+Ttka7NqeGoMv9EzTN0h+yxB3zB1++gNwITsk56J9G3tV9XzYhxeecgkVj2H/KI8eYyLLMalqf7OT9ppOo/6RD/EeZeXPMbllzzMrXgyiNclg/p3m+4pT/3712dNnVe102cGeoQ5GvK9NrfiqH13Zj4066s/zCrmxH8bAAAAAAAAAAAAAADAP7oDeIh0cECcAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQkAMAgAQfefIyA4pSkF+6S5g+8/AgAAAAAAAAAAAAAAAN45txzV3x0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgKUBKOBhzECcAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2S0Q6DIBAErf//0X1qYggIxx3sVWeTSa21HM5yHsdxAgAAAAAAAAAAAAAAAAAAAAAAAAAALOCa670VM9Tvmp27ZF77iZRuoryNRP3u2RiNd93orp/I1UfPn3XdEf+1e2/nLjOdzEbtIQM1H153I8/WZqpdZKCVWlflfWvPI+dA7UNNy0st1nVnz8FbKR203FhdjThuRe1E4b+XUaeWOWfxWa47M+ff8WTHPLUfNTUfXk+eqH1koeVmxlHP9V3UHjIR5Wg26vfPxtH4XN1FOR/6rlZ14Zn3VKLceKJ2kIXSx6wjT9QOslBzMuspKmonGbr45TPpJjJqL5n6mPGzImo3WTs5i+vVPZSz30rpoedoV9ReMvTR8qKI2ku2PmZ6mO3cut6TOYprTyI6uFvzLbQ8lE6s7qKi9qPqwuuwtXZEP2pPqk686a3tnat2pezE6qy2VjmjNXvkurbmG+jlM/jczMyRPaj97HI/2kcvkeeg9Zva244+PLnr17qfkb2pve3qJLKn1edD7U3RkcXR9b8RZ6O1dnnvqcyk9T/PHiz7UTvL0MGdl+v1jv2o/a3uJKIjutjnoOem/G7di3Vfan+7OvF2tetsqN0puhnx0bqmk/Wd9J7deR688/6B2feNcmON2teOPtTzLVH7ejoj7ulC2416HwAAAAAAAAAAAAAAAAAAAAAAAAAAkXwBNEnYIUCcAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="Evil Mushroom" type="spawn" x="2016" y="1888" width="416" height="448">
+   <properties>
+    <property name="eA_death" value="60000"/>
+    <property name="eA_spawn" value="20000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Squirrel" type="spawn" x="832" y="864" width="416" height="448">
+   <properties>
+    <property name="eA_death" value="60000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="36"/>
+   </properties>
+  </object>
+  <object name="Clover Patch" type="spawn" x="1416" y="1543" width="180" height="93">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="eA_spawn" value="10000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="35"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="832" y="1600" width="736" height="672">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="10000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="1472" y="864" width="576" height="608">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="25000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Log Head" type="spawn" x="1696" y="1504" width="448" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="25000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="23"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

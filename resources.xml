@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<updates>
+    <update type="data" file="gfx-1.zip" hash="df802862" />
+    <update type="data" file="map-1.zip" hash="135edb25" />
+    <update type="data" file="sfx-1.zip" hash="f806f41" />
+    <update type="data" file="xml-1.zip" hash="8a6e1c55" />
+    <update type="data" file="gfx-2.zip" hash="961d647b" />
+    <update type="data" file="xml-2.zip" hash="44e3633d" />
+    <update type="data" file="gfx-3.zip" hash="475eab1f" />
+    <update type="data" file="gfx-4.zip" hash="608aea69" />
+    <update type="data" file="xml-3.zip" hash="9b2d2114" />
+    <update type="data" file="gfx-5.zip" hash="732e858a" />
+    <update type="data" file="map-3.zip" hash="344ae21f" />
+    <update type="data" file="gfx-6.zip" hash="f09e9bac" />
+    <update type="data" file="xml-4.zip" hash="da8b23f9" />
+    <update type="data" file="gfx-7.zip" hash="6c82264f" />
+    <update type="data" file="gfx-8.zip" hash="de2dfc9d" />
+    <update type="data" file="gfx-9.zip" hash="d5564d23" />
+    <update type="data" file="xml-5.zip" hash="f42002ac" />
+    <update type="data" file="xml-6.zip" hash="3f5b5a29" />
+    <update type="data" file="btcapfix.zip" hash="1521f729" />
+    <update type="data" file="map-4.zip" hash="6877ce77" />
+    <update type="data" file="gfx-10.zip" hash="d2f7a88f" />
+    <update type="data" file="codershelmet.zip" hash="6b82090a" />
+</updates>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="Tulimshar Magic School"/>
+ </properties>
+ <tileset firstgid="1" name="Inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Inn2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Inn x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/inn_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="545" name="Inn x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/inn_x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="577" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="Ground1" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TMREAIRRDwY9/NaeOFg/XJANbrIFM3p6ZDQAAAAAAAAAAAAAAAAAA/PKtfumNeFf6+/qgWfr7+qBZ+vv6oFn6+/qgWfr7+qBZ+vv6oFn6+/qgWfr7+uA2+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABudADJvQOVAHECAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XS0rDUBQG4Pig6rBO1GE7qQ4LPhfgElyQ7si6AusK1MV06gkkcLmkQoN6pfkCH3mce7ghnH+QVVVVKwAAAAAAAAAAAAAAAAYrPUq/C5S2E/Ybo3AQDsNRUttN6nnPXnb+ae2eUMI4HDfq65NwGs6yWlvPey7DVbjO1t5n9321e0IJkzBt1NezcB4uslpb7+qZdqx9yO77aveEEuaZm3Ab7jpq8zU9v630N2K40jl8DovES1av/ztG1d/lQj4oLZ3D17BMvGX1cUM+GIpN8jFpyAdDsUk+Sin9jRiudA7fw0fisyqTB/ngv+iax8fw1PH8ux75YBv1mVP5gPXkAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANhGXziGZVYAcQIA
+  </data>
+ </layer>
+ <layer name="Lower" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VPW7CMBQAYMTQAaoygBjaTpS/k8A9GHqA9sotF4AyY6QgIZMQTJBK4PukJzv2e7GHPKXRAAAAAAAAAAAAAAAAAAAo91Gy3y1YHyWeMzyY9xJr4RaNU/Obx8+7d7RCtHPi+SDvJYydbN6vcGe4lkH2PT818/fz1idhbVqQX+Q1xFtOvJ+oaYUz2onnwK2bVayfX+UW8D8WJfGZ5S2jMZU+oY6+SuI7y/uNxnPoCR7FJf2xp0+os3WInyj+opwq/QF1sbqwbhON8CjO+X8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPdhCwl2J38AcQIA
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XIQ4AIAwDwAUD/P/DKBxqqiF3ph9Y06wKAAAAAAAAAAAAAAAAAAAAgF+t8U5INd0oAA32A/LcXm79JJx/GQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeg50S0ZGAHECAA==
+  </data>
+ </layer>
+ <layer name="Over" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XoQoAIAwFwP3/D2sUxSQDTa7cwStjYWXhRQAAAAAAAAAAAAAAAAAAAECtVn0AAAAAsPq5jg7A1JL0nXMO3GU/lf3Yy95LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4Y53mAsQBxAgA=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TWwqEMAwFUHFp7n9Rw3wIUnSaFmsGey4chNoXId3WZdkAAAAAAAAAAAAAAAAAAABggG/2b5lyvFwXTe381jXwhJ4ej8z7NV5+a+uza8TcohmxZ+0874NMrf06Yt+zN9F7LtztH3O8V3Z9mFd2/0fukF0j5hXp1eP/qzkjk10j5tXTp08nu0bQwvsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3ugDUXQ2xABxAgA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="To Tulimshar Canyon" type="warp" x="800" y="864" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="024-1"/>
+    <property name="dest_x" value="2560"/>
+    <property name="dest_y" value="1568"/>
+   </properties>
+  </object>
+  <object name="To Outside" type="warp" x="1344" y="896" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="024-1"/>
+    <property name="dest_x" value="2752"/>
+    <property name="dest_y" value="1568"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

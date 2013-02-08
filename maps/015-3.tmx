@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Cat's Cave"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="cave_bilevel" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="cave_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="401" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="657" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="659" name="Woodland Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="915" name="Woodland Indoor x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="947" name="Woodland Indoor x3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <layer name="Ground" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YSU7DMBgF4H9BOQHlBoVygEI5QKGchQNQpC6ZFkwLECyYFmWQGBdMEmVYMEkgcSVelFgxyCQ1rURs3uKTEyuK/Gr7l9O8iOSJiIiIiIiIiH6hH4pQMLQF7b6Y0K9fD2Qgk40hKEPJ0Ja0+3JCv349nIFMNkahChVDW9Huqwn9+vVYBjLZ6IVxmIRam4J39GQgk23+YOx1yEU2YM/CJmxF73E1/zbswCEcwaWFYzhxLL+q+33RuE/hDG6gCc8WbuFO3Fr/qu4PRvnv4QHe4N3yXSuwKm7Nv6r7I9G41+DA8NwUTMMMzMKcJ/mDfa/qncq/npIt7ZkJD/M3YFfCOr8v5jXi4vzrv0NS/nO4kLDOX8H1P8v/CE8S1vkXeJW4Jqh64Ft+veaZLMCixPvBt/x6PTOdcdVZQe0H3/I3ojz6d4Fqg3OyOiuo/eBbfpVHZdbXQdD3AfMSnwV8yL8Ey/J1fyd96/30vKv5O8XF/PU28n7/38DF/LkW1Fp8zrX8abolXB9dGRjLX60PF9d1J/O79F3H+Wf+Tud36X89zj8RERERERERERG55hN35jLuAEAAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VwQqDMAwA0M591z5seJIe/G0PIgNRPAwNbd67tIUekqZNSwEAAAAA/jXu1tMrJIzm7M+tJWoM13p7Jy33LCDW5x0dwTP0yVVv/x9sxpN5dnX4jfNwvKf3vnCWNznU5PXPnv83OoBg2ftf9vsPAAAAAHCnBa/NsikAQAAA
+  </data>
+ </layer>
+ <layer name="Over" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WIQ4AIAwDQCx8APj/R5mZJCjA3CV1E3VdKQAAAAAAALBXIyMyfxcBAOCp/AN3yf+wH+4y7WF3ALgl99GuAQAAAAC3LKMm80MAQAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TQQqDMBBAUen9V564K6GEomkyZcjkDTxQUMmPer6O4wQAAAAAhlzzefzt/GmyO2baZ+Z6TnZLxB7Mfj+riVi7/rr9PW2r9vf8979ck90z2r5jf+Tad+tv76nW3zOV33/beddetf9uH3bof5pq/RGT3TLa377D3fpnpt271UROdsu/9id7Dfr169evXz8AAAAAUMsb4VptiABAAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="To Woodland" type="warp" x="993" y="1376" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="015-1"/>
+    <property name="dest_x" value="1888"/>
+    <property name="dest_y" value="1024"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="672" y="736" width="96" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="896" y="960" width="96" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="736" y="608" width="64" height="64">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Spider" type="spawn" x="1280" y="608" width="64" height="64">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

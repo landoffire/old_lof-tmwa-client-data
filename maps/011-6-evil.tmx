@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="300" height="300" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Bandit Cave"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="000000" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave-evil.png" trans="ff00ff" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="131" name="cave_bilevel" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel-evil.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="387" name="cave_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_x2-evil.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="419" name="cave_ani_wetwall" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_ani_wetwall.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="675" name="mushrooms" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/mushrooms-evil.png" width="640" height="224"/>
+ </tileset>
+ <tileset firstgid="815" name="desert2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/desert2-evil.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1071" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn-evil.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1327" name="woodland_indoor_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2-evil.png" width="512" height="64"/>
+ </tileset>
+ <layer name="Ground" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Bilevel" width="300" height="300" visible="0">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Fringe" width="300" height="300" visible="0">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Over" width="300" height="300" visible="0">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Collision" width="300" height="300" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt04GK9KoSRtHQ7//Ql5/DcIOYRI26S7M/WExPT6JVpfM7juMnSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkLeocuhbFdQSoQUpD10P1/aXeR9+PCLMl91bfc7w613PoOkfP4Cl0jbTS1LwXpW56tup3ln+ha53V/933XzUykWpN16Hn/nWtoeuOMAe65pVm9Sa5/alaS/a6+/vT+/TZRvYmdO10/7vMYOa8RmR2nek+V/s+1VNaL33mUbTk6pxW1DN3d3gHvTJq/l8IfQdWvHN0D5FmcRe6v4izIs9jt9B3IvI9O4fuKepczqH7izSnKGeya+g7EuWeXYXuLfp8jgD90XOKfj67hb4nkc+a7i/SjK7Wovsj5xTtjGaH6IO+J1HPl+5xhXnRfdEzin4+o0L2Qt+TqOdL9zhrXm/mSfdF36mV7vObzOil5V36zkQ6X7rHFeZF90XPKdr5pGv22CfSfetR2wr3qiV0j9TMap/dTU2i3ecR+9A9jagt+r1qDd1j9HnRPUWZF30mo/aLeOd61UbcJ2fD3h+6n4izmnEOs3qKdt961RXByNC9RZ8T3VPEOb1d9+7ZWb3QMxxVVwQjQ/dGz+npPbqnSLOakVn1R5wffSdWuFt0b+ScSt6je4oyq1mZVf/I+bXWSt+JFe4W3Rs1q9a7t4uomVX/qPm9qZe+E9HvF90TOaenO7fzjEbdp94ZWf+I2b2tl74T0e8X3RM5t5KZ0rWvdp96Z1bNvWY26t0VjQjd08zZeYfG36ej8x6tNdfu3Wteb96n78MKd43uI4Ivzad3Ru87uv6rfVr3fbMGfTei3zu6h0i+Mp/eofbtnd61165D34sV7h3dQyRfmU/vkHv3zKg6S9al78Qq947uIZKvzKZ33uw/sq6VQt+JCHev5O/Kz5SugbozLYla10qh78QKd4+uXd6ZETWuGPpORD9Xum6te29y393t01LT2zpXCn0XVrl3Um1y7zyt/6aWt/WuEPoORL5vX5yRnpXml3wuWbdnDSN6okOf/eh71eNM6D4US2l+yeeadXvVUFPriHV7hj73KPfq63NSm6f8ks+t6z09W1JLaWr667VPrp/0e/qsI9yn0tB9KKan/JLPrevk1hidEXvQ5xVV79D9KKan5J6peb93avbsWR99TtGMDt2fYnpKyTNR07N2+pyimBW6T8X0lJJnoqZn7fQ5RUCE7lmxPKXkmajpUTt9PrQIoWegOJ5y9/zV+0/r1+z/Jm/Xp88m8r2YHXoeWuM+1r6Xez73uaWWuz1rvi9d84sih56N1rqPJe/Prumurjdr0+e04v0YHXo2WuselqxH1Ha1xpu16fNa+Z6MCj0brXUH79Yka7x6/8269JmtcFfSd3rft6v9tKdRya1N1jqiV/rsdrszPULPRmvevdzapfW01Pr2729CnyF1Z3rfpbs1rvZ5qkl7GZXc2jW19K51VK/0+UUyMrm9cnvTM9Cad+xu7Zo6etU6qlf6/CIZGbo3xTAqEWpI6xm1rsafK92LYhiV3D6z9r6qI/d7z/U17nzpXhTD7MyuYWTv9NlF1zN0L4qDSI/9S979nX727ps+t1X0DN2LeGRG7/87/ezZN31mK+kduh/FMjOj9/udfvbqjz6fFT3NsyV0T4phZkbtN6of+mxWNTp0f9r3bp0zar9R/dBns6oeKVmL7lNr3q3SjKplVB/02axsRugete/dOjrXMroH+kxWNyN0j1rjjrW8U7re07pva2+pRePuUmvo/hTDU2qfr0nvWmfUoPdn03KWdH+K4Sm1z7fkbY0j91afe/Q2dH+K4Sm1z68Seu47Ghm6N8XwlJpnVwo9992MDN2bYlktb+qnZ72rkaF7Uywr5W399Kx3cySf3ya3Dt2jYlkpb+unZ72Tu9n2Ct2j4lkpb3qg57yTmlm/Cd2n4oiS0pre9kPPewdXc72b8ZvQ/YoVMWl9uXrf9kbPfRfnedbMtzV0v2JEzow+6fnvonW2LaF7FSN6ZvRKn8EuWueavlMSulfN9Ta91yvdZ0TP9FnsonWutaH71Hxv0nu92r1690yfRWQ183kz15rQM9F8rRmxZut+vXumzySikvkcmedH3kd6JlF8aRatGbVu6349e6bPJKKnOeX+1jLP0tDzIOZfOjO61hmzqM3bOb/JyH7ps4jqTUbsQ8+DnHnrc7toCbXvm/1n9bWTnum5Hz0Xet6l79D9RLmT1L6tdfRe7ytGJF3fcxofuj96XhHPKVJfu4iUX/J5J6ND90fPbKWzKg09/xnnm5v7CmeThp7liLMZGbo/emYrnVVp6PnT/wM173tu/P9AzXt0f5FmRuw7IvT8d5rlv8yuiZ5973PrOTu6v0h3fof/M3rmq88vSuhziHp+dH+zZlczz8jndRd63tHvOp2aHumziHiGdG/R5xjtvK5Czzb6PV8t9FlEPT+6x1XmGe3cWmuLzPwX+hwinxvd6yqzrd2j9zle9UDPM8LZlKZmj1k13e29ipmhe4062/T5u7VGnh89r2jnEj1ve6HPIfrZ0b2uMl/PJ9Z57Bb6DCKcX81adM8rz7lXcrXRM/rS/EfkqV/6DFY6y6/8X9BzPjJ70n1HsHtKeqfPYNWzpPvdYdbpmnf70T1HUDvP8/dv8ubca96j5xvpLJ/m1PLOV/VI7X50zxHUzjL9W+TQs41ylqWzqn1e8+b25t2d9Jpn7bnNCD1b+kxrzqT2/Ogeo+s9I2f+/zmcM2JNKvRso5zp1Wzufr/67vw3zT1Tuga6/1xGrj0z9Hwjnu3TvGqf19wzpWsge89lxh6zQs+Y9mZetc9rznnSNRA9n5N+N3q/maFnTesxr5pnNec86TqInq9C7n1VR+53so+V5OZSM7+r78WeJ13H7H5zofcvraPHGl/UkvO7dP16Pqfd3GWl/Z9CzzmqktA1qu386NpG9pt+R8/77Tr0XFfT4wzkGUozHQFqUPvZpaFrkqScXOiaJCnnHLoWSXpyBKhBkkocAWqQpBJHgBokqcQRoAZJKnEEqEGSShwBapCkEn+h65CkO2noeiQplQtdkySlcqFrkqTUVei6JOnsLnRtknR2FbouSUpdha5LklK50DVJUk4udE2SlJMLXZMk5eRC1yRJV9LQ9UjSlVzomiQp5y50bZJ0Vhq6Tkn6pyZ0rZK+rSV0zZK+rSV0zZK+6U3o2iV9U0vomiWpNHSdknRWErpGSfpTE7pWSd9WE7pWSd9WE7pWSd9Wk6t36R4kreOcHmtc5ek5eg6SYrtKr3XSNUuekaSzp/RerzT0XCTFUpqZe7zdT9KenkLs1XtfSXtIM2ufWftK2sc5M/dKQ89hd8573DzpWr5k5tzvQs9hd8587Dzper5i9sxz+8zc/8tyoWtazV3o2iLqOZsos45Qwxdcha5rJU+h64ui54yizThKHV9wFbqu6GpC17rKnErnVfs81SNd147uQtcWWU3oWmfOonVGudTuR/de24f6zpuuLTpn9zyHXsntR/dd2ztd6y6cbb+5fXF+VOi+a+dA17cLZ9tvdnQ9EWYwI3TPLTOha9qFc+03P7qWKHN4yt17pX+LbuXaI3OefWZI1xDNVe6eLf1+BSV9X71H1x5Z7TyVnyFdQ1Rpama4+lxL+n7zvKS+0tw9V/LdSnLpMStJY6S5ey73Hl1/7/7v+qp5VlJ/aWrfo+vv3f/dPGqelTTWX3o/u4IeoXuQviRNyXN0zaNnUBO6dulLakLXGm0mdJ3S1zyFri/iTL48G4mUhq4nipLQNUrSlTR0PZJ05xy6Fkm6cw5diyQ9SUPXI0lX0tD1SCs6h65lZ2noeqTV5ELXtDPnLLXLha5pZ1eh65Ii+sv585F8rzlnUDt3z0dfUhK6xq8onXsudO3SaCWha/ySp9k/ha5fmuUqdF1f1Bq6bmmWq9B1fVFr6LqlmY6H38Wfz13o+qSZjszv6Xfiz+gqdG0S6S90Hbo/H89I+i90Dbt7O+OjwxrSDo4ANazuL+nvR+ZvPdaXpBZpzt//Mt+37kH3KWkPaX7Jz+PIv5P7fLU+3aOk9d3l/EzJO3QvkvZ2nH4ep9/TZ0pC9yJpD0fl91fPHo3vStKVI/P7Obnva9eUpCt/Kf3uKefnW/aWpJxR+Z1+SlKLI/n8lPTd2tztL0lXcrn6W80araHnISmWXJ6eq12vR+g5SeKcM+L59J3cu1ehZyMpluPhb+ek39XskVvrbh9JOvtLzXNHxXvp+1fv1q4n6TvS1D5f+t7d+/QMJMV1l9Y10r/V7E3PQ1IcR+b3q9Ss2TP0jCTxajNq3d77S9pLTUauPaoGSfsoyci1a0PPSxLrKqPXv9pnVB2S1neVUXuV1kPPRVI8T6Hrk6Szu9C1SW+cQ9ei/mebnjNdk9QiF7om9T/j9LzpmqQWT6Hrk6R/SlOyDt2LpH0dF78/pWQtSerhba7WzK1P9yppD8fF7zXJrXX3nCTdiRJ6DpLiihh6JpLi+cuv8efI0LORFEvk0LORFMtffo0/R4aejaQYZuXNnvSMJMXQkpb33uxJz0hSDLmUPDMr9HwkrenIfD7/fErpc+k7ktRiduh+pYj+Qtexslyuvi8J3Y8U0Tl0LTt5E7p2KaKr0HXt4E3o2qVo7kLXtoPW0HVLEd2Frm0HraHrllZxBKhhF62h65ZWcQSoYXVvQtcuKaY0PddqDT0TSTHdpfW9t6FnIimup9Q82yP0PCTFFin0LCTFlib33ezQM5EUU4SkddAzkRRTtNDzkBRXpNCzkBRTxNAzkRRTxNAzkRRbTWqfrw09C0mxRQo9C0nriBR6FpLWECH0DCStp3dK1qR7lrS2maF7lbS2GaF7lLSHEaF7krS/mtC1StKfI0ANklTiCFCDJJU4AtQgSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZKkb/kfF9JgwQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="300" height="300">
+  <object name="To Small Bandit Cave" type="warp" x="1632" y="2400" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="8320"/>
+    <property name="dest_y" value="4064"/>
+   </properties>
+  </object>
+  <object name="To Small Bandit Cave" type="warp" x="1952" y="2272" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="8640"/>
+    <property name="dest_y" value="3968"/>
+   </properties>
+  </object>
+  <object name="To Bandit Cave" type="warp" x="8640" y="4000" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="1952"/>
+    <property name="dest_y" value="2304"/>
+   </properties>
+  </object>
+  <object name="To Bandit Cave" type="warp" x="8320" y="4096" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="1632"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Bandit Cave" type="warp" x="4640" y="3776" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="1536"/>
+    <property name="dest_y" value="3808"/>
+   </properties>
+  </object>
+  <object name="To Small Bandit Cave" type="warp" x="6272" y="832" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="8352"/>
+    <property name="dest_y" value="1472"/>
+   </properties>
+  </object>
+  <object name="To Second Bandit Cave" type="warp" x="8352" y="1504" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="6272"/>
+    <property name="dest_y" value="864"/>
+   </properties>
+  </object>
+  <object name="To Bandit Cave" type="warp" x="8672" y="1664" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="3136"/>
+    <property name="dest_y" value="992"/>
+   </properties>
+  </object>
+  <object name="To Small Bandit Cave" type="warp" x="3136" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="8672"/>
+    <property name="dest_y" value="1632"/>
+   </properties>
+  </object>
+  <object name="To Second Bandit Cave" type="warp" x="1504" y="3840" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="4672"/>
+    <property name="dest_y" value="3744"/>
+   </properties>
+  </object>
+  <object name="To Woodland" type="warp" x="1568" y="3232" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-1-evil"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="1184"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/waterfall-2x3.particle.xml" type="particle_effect" x="3865" y="7123" width="11" height="11"/>
+  <object name="To Lake Cave" type="warp" x="768" y="6592" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4"/>
+    <property name="dest_x" value="512"/>
+    <property name="dest_y" value="1856"/>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="1504" y="5920" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="1248"/>
+    <property name="dest_y" value="1152"/>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="3104" y="5408" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="2848"/>
+    <property name="dest_y" value="672"/>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="3616" y="5824" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="3392"/>
+    <property name="dest_y" value="1056"/>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="3904" y="6752" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="3680"/>
+    <property name="dest_y" value="1984"/>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="3008" y="7200" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="2784"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="2176" y="7520" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="1984"/>
+    <property name="dest_y" value="2784"/>
+   </properties>
+  </object>
+  <object x="10528" y="6096"/>
+  <object name="To Lake Cave" type="warp" x="8032" y="8896" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="3552"/>
+    <property name="dest_y" value="3904"/>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="5920" y="5824" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="1024"/>
+    <property name="dest_y" value="192"/>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="8512" y="5824" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="1440"/>
+    <property name="dest_y" value="3808"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="8000" y="7616" width="32" height="32"/>
+  <object name="To Bandit Lord Cave" type="warp" x="5568" y="8192" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6"/>
+    <property name="dest_x" value="8448"/>
+    <property name="dest_y" value="7584"/>
+   </properties>
+  </object>
+  <object name="To Isolated Storage Room" type="warp" x="8448" y="7552" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6-evil"/>
+    <property name="dest_x" value="5568"/>
+    <property name="dest_y" value="8160"/>
+   </properties>
+  </object>
+  <object name="Silkworm" type="spawn" x="352" y="288" width="9088" height="4096">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="33"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="7936" y="672" width="992" height="1120">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="7776" y="3040" width="1248" height="1248">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="3968" y="3488" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="5184" y="1792" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="1888" y="1920" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="6016" y="3104" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="6016" y="608" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="896" y="864" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="2880" y="512" width="1472" height="1568">
+   <properties>
+    <property name="eA_death" value="60000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="736" y="2848" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="5184" y="6976" width="3968" height="2112">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="5280" y="5216" width="3808" height="832">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="8160" y="448" width="160" height="4064">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="6080" y="448" width="160" height="4064">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="3968" y="3328" width="2816" height="448">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="736" y="704" width="3360" height="3104">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="23"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="448" y="4704" width="4160" height="3136">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="4800" y="2912" width="1184" height="1216">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="5792" y="1856" width="1184" height="1216">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="2368" y="4800" width="960" height="896">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="992" y="3328" width="1152" height="640">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="5344" y="2560" width="672" height="928">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="5888" y="1120" width="672" height="928">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="896" y="3296" width="1536" height="800">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="1824" y="5152" width="448" height="576">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="2752" y="7008" width="960" height="480">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="7488" y="1152" width="1728" height="544">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="8384" y="1088" width="704" height="928">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="2560" y="2112" width="1024" height="832">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="1600" y="768" width="640" height="832">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="544" y="1824" width="640" height="832">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="1728" y="3072" width="480" height="352">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="1472" y="1760" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="3968" y="1056" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="1184" y="5504" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="2112" y="7136" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="512" y="6336" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="3520" y="5888" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="4256" y="6368" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="2080" y="6816" width="960" height="480">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="3232" y="6496" width="960" height="480">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="832" y="5696" width="1024" height="1024">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="1760" y="4096" width="1024" height="1024">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="2656" y="5632" width="960" height="480">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Maggot" type="spawn" x="5376" y="7872" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="54"/>
+   </properties>
+  </object>
+  <object name="Cave Maggot" type="spawn" x="8160" y="7488" width="544" height="192">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="54"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="8000" y="7680" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="8000" y="7776" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="8000" y="7840" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="8256" y="8032" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="8352" y="7968" width="32" height="32"/>
+ </objectgroup>
+</map>

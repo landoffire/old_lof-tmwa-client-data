@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="75" height="75" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Botcheck Area"/>
+ </properties>
+ <tileset firstgid="1" name="arena" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="385" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="Floor" width="75" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VOw7CMBAFQCMk3yD3vyoNBUpsZ0M+LnaKEciYwk9Pu8urlAUAAAAAAAAAIKF3ud/sNz6RVf0andXOvYxZtT5H3zNnFclHVnp1plejs+xZ2YPtrCKzqbXzIv+b/cYrs+rlMjrbu/P72+w33pXVui+1bHs1mlOteTb7jXo1Jyvz6lhW9uB/WUW6s3cnQ1aRGRSZW1myiuy/Xs+yZaVX12a17l3GrOxBAAAAAAAAAIDzPuY7kgvkVwAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="75" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDHAKJ1ubrkVwAA
+  </data>
+ </layer>
+ <layer name="Over" width="75" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDHAKJ1ubrkVwAA
+  </data>
+ </layer>
+ <layer name="Collision" width="75" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QAREAIAwDsWF9ynEBdKR3EdDvVdUAAAAAAAAAAB86sdsftdLqZVpppZVWKbTSSiutUmillVZapdBKK620AgAAAAAAAACYZgNdHZY95FcAAA==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/011-3.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Hermit's Cave"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0keepratio" value="true"/>
+  <property name="overlay0parallax" value="0.0"/>
+ </properties>
+ <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave-evil.png" trans="ff00ff" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="ff00ff" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="131" name="Cave x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2-evil.png" width="512" height="64"/>
+ </tileset>
+ <layer name="Ground" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztmLlOA0EMhqcAGk4FQgkoRBziVEIItEAIvAMCHoCrIzSQR8cWY2ENe8xmV8JeufgUbdLk8++d8UzTOdc0DMMwDMMwDEMM28BODrsC/mdVrptADzjzn8gCsAgs+eeWUmfKssFcu8AAuPGfyBqwDmz4545S577PscVcL4HpgEPgCDj2zxdKnYc+x06GaxLvSp1XWV6xrhxtzuRbBu7cEOBU1ndUwPlcgBOH763UfzMlsuW1QOdbAY4cXI977ncPRe+tAn5TOfVpO1k9jesx7anYf7gXneY4zgJzwLz3yarPiZPR09TH/L9euZ+96DrIL+zxPWAfOPA+WfWR0tM0V+Rl2U6oS+iTt2+tCPCluYJnmdaPvYi6SPeN3WexxwcRdclaz/7bNck36T0tsxdJciW4G/VcFfOVpD4uWodJctXmm+b9UdN8y2St3TfLOWuNk7ZWVUnaWl9Hlt3f2UtrH8eAc2k4e0k7E1UJzqXh7IUzqIa7jRiwf/k9e9I5AmdQLfc5ea50906knSOk3ucUyZPfvRNhL98Dj8xZwtl30jyz7qNH3vUZeHM61+p+kGfeuf4FeAWeWMaafIcRjtTDDz5b9L0Dxv43Tf08jHDluRLUz9rmrEl8tWab5pt0JvwEvjxj9n0dfIugzTck9iys7b01DMMwDMMwjLryDbPuMTQ=
+  </data>
+ </layer>
+ <layer name="Fringe" width="60" height="60" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzrERACAMxLDMwaqUWZyeBZ4jUuPWVQAAAAAAc6yrAAAAAD/q9EDATg8AAAAAPOgA7DwBMw==
+  </data>
+ </layer>
+ <layer name="Over" width="60" height="60" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt10EOgyAQBVC29QLqgXvvStJG0kijCzsQ3kvYuJoPGXBSAgAAINozugBgaI9trdFFNGxO9qdn+fyW5Awhy/0wRRdx4I4+bSnriO9szry811R8G3UfRswt8+7XHdfSXXVV2eflquXpOSsAQMv8Z0Gc77no7Cz8mRN7793aXHh2TgQAAP7rBRH8BXM=
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="60" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEOgyAQRdH5dr7crTECKuM8GC7JTZu2i3ewxcwKERERERERSbMJNvxpax31vkjr6ma7vH9z1Nv/fJ5ZzB5HbcDs4+39Xu3w8JbT64reu22tz+48K3p7e794ZzSPeJ8cte/N/lGv2ljb7/EcZ7Zebbt4R/7rmbwebvX2aLN6t7e59b16b+R9qLfgxYv3m3VHb3ZzdmftqHdFWjN5e0e9L9Ja8656D3j73tY9zN7IUW9XPW8iIiIiItJ0AEZoYPk=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="60" height="60">
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="928" y="736" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="992" y="736" width="32" height="32"/>
+  <object name="Arkim the Hermit" type="npc" x="976" y="752">
+   <properties>
+    <property name="npc_id" value="116"/>
+    <property name="script">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, &quot;Do you want to go back outside?&quot;)
+       local v = do_choice(npc, ch, &quot;Yes please&quot;, &quot;Not yet&quot;)
+       if v == 1 then
+         tmw.chr_warp(ch, 9, 60 * 32 + 16, 95 * 32 + 16)
+       end
+     end
+    </property>
+   </properties>
+  </object>
+  <object name="To Lake Cave" type="warp" x="992" y="448" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4-evil"/>
+    <property name="dest_x" value="2352"/>
+    <property name="dest_y" value="336"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Silkworm" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="33"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
