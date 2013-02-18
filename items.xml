@@ -6264,7 +6264,7 @@
 	<sprite>pets/pet-dog.xml</sprite>
     </item>
     <item id="8037"
-	image="fairy-blue.png"
+	image="pets/fairy-blue.png"
 	name="Green Fairy"
 	description="A green Fairy."
 	effect="Str +50, HP +100"
