@@ -2,9 +2,9 @@
 ##0
 ##0 Heya all, some updates are coming.
 ##0 There is no set date but the
-##0 scripting of our own player
-##0 Ozthokk's quest is in the process
-##0 of being scripted. Have fun!
+##0 quest written by our own player
+##0 Ozthokk is in the process of
+##0 being scripted. Have fun!
 ##0
 ##0 For those worried about the server
 ##0 disappearing once the new game is
