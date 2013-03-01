@@ -1,21 +1,27 @@
 ##1 Welcome to Land of Fire
 ##0
-##0 Happy New Years! May the rest of it
-##0 be great, and don't forget the
-##0 Christmas quest! It won't stay long!
+##0 Heya all, some updates are coming.
+##0 There is no set date but the
+##0 scripting of our own player
+##0 Ozthokk's quest is in the process
+##0 of being scripted. Have fun!
+##0
+##0 For those worried about the server
+##0 disappearing once the new game is
+##0 ready, do not fret. If we cannot
+##0 locate a new host, we will continue
+##0 hosting until someone volunteers.
+##0 We have backups that can be
+##0 transferred to a new host so
+##0 there is no risk of data loss.
+##0 We apologize for any cause of
+##0 thought that a players time here
+##0 would be in vain. Have fun!
+##0 
 ##0
 ##0 All of the old news is now gone, do
 ##0 not be alarmed... Development
 ##0 of the new LoF is in progress
 ##0 and we are hard at work on it.
-##0 It is not decided how long this
-##0 tmwAthena server shall remain online,
-##0 but we will be here until the new 
-##0 game is ready. We will publish the
-##0 server data when this is removed, if
-##0 we do not remain online. But, have fun
-##0 here, as we are dedicated and happy
-##0 to have players in this modified 
-##0 TMW experience! Enjoy!
 ##0
-##3 Land of Fire's dev team
+##3 - Land of Fire's dev team.
