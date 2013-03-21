@@ -99,7 +99,7 @@ local packages = {
             --"minimaps",
             --"graphics/particles",
             --"graphics/sprites",
-            "tilesets",
+            --"tilesets",
             "graphics",
         },
     },
