@@ -1,27 +1,27 @@
 ##1 Welcome to Land of Fire
 ##0
+##0 The Easter Bunny is in town
+##0 but not for long! Come
+##0 to Hurnscald and help him
+##0 get his eggs back before
+##0 time runs out!
+##0
+##0 We have moved the server to
+##0 Platinum, some speed issues
+##0 should be resolved.
+##0 Nothing has changed except for
+##0 the port you connect to, and
+##0 manaplus has already updated that.
+##0 Have fun!
+##0
 ##0 Heya all, some updates are coming.
 ##0 There is no set date but the
-##0 quest written by our own player
-##0 Ozthokk is in the process of
-##0 being scripted. Have fun!
-##0
-##0 For those worried about the server
-##0 disappearing once the new game is
-##0 ready, do not fret. If we cannot
-##0 locate a new host, we will continue
-##0 hosting until someone volunteers.
-##0 We have backups that can be
-##0 transferred to a new host so
-##0 there is no risk of data loss.
-##0 We apologize for any cause of
-##0 thought that a players time here
-##0 would be in vain. Have fun!
-##0 
-##0
-##0 All of the old news is now gone, do
-##0 not be alarmed... Development
-##0 of the new LoF is in progress
-##0 and we are hard at work on it.
+##0 quests written by our own player
+##0 Ozthokk are in the process of
+##0 being scripted, as well as
+##0 the server is being rebuilt upon
+##0 new TMW content, and many changes
+##0 will occur. Visit our forums and
+##0 look around for more info!
 ##0
 ##3 - Land of Fire's dev team.
