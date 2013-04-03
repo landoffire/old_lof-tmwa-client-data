@@ -1,10 +1,18 @@
 ##1 Welcome to Land of Fire
 ##0
-##0 The Easter Bunny is in town
-##0 but not for long! Come
-##0 to Hurnscald and help him
-##0 get his eggs back before
-##0 time runs out!
+##0 Heya all, TMW-LoF V2 is in
+##0 progress. Many new quests will
+##0 be added and changed, and we
+##0 are updating to newest TMW
+##0 content to keep up to date
+##0 with the main server, while
+##0 still being our own flavour
+##0 of TMW. While this is in
+##0 progress, not much will be
+##0 added to the current server.
+##0 We apologize for the wait 
+##0 but it will be worth it.
+##0 Have fun!
 ##0
 ##0 We have moved the server to
 ##0 Platinum, some speed issues
