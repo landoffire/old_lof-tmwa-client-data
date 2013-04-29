@@ -241,7 +241,7 @@
   <!--51 Froad-->
   <!--52 Troll-->
   <monster id="53" name="Butterfly" targetCursor="small">
-    <sprite>monsters/butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+    <sprite>monsters/butterfly.xml|#33cccc,000066,33cccc,FFFFFF
     <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
   </monster>
   <monster id="54" name="Cave Maggot" targetCursor="small">
