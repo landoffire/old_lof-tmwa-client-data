@@ -53,56 +53,56 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="150" height="150">
-  <object name="Fire Lizard" type="spawn" x="2560" y="2880" width="96" height="96">
+  <object name="FireLizard" type="spawn" x="2560" y="2880" width="96" height="96">
    <properties>
     <property name="eA_death" value="2000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="37"/>
    </properties>
   </object>
-  <object name="Fire Lizard" type="spawn" x="1152" y="1920" width="96" height="96">
+  <object name="FireLizard" type="spawn" x="1152" y="1920" width="96" height="96">
    <properties>
     <property name="eA_death" value="2000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="37"/>
    </properties>
   </object>
-  <object name="Fire Lizard" type="spawn" x="1408" y="3616" width="96" height="96">
+  <object name="FireLizard" type="spawn" x="1408" y="3616" width="96" height="96">
    <properties>
     <property name="eA_death" value="2000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="37"/>
    </properties>
   </object>
-  <object name="Lava Slime" type="spawn" x="0" y="0">
+  <object name="LavaSlime" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_spawn" value="20"/>
     <property name="max_beings" value="30"/>
     <property name="monster_id" value="94"/>
    </properties>
   </object>
-  <object name="Fire Goblin" type="spawn" x="0" y="0">
+  <object name="FireGoblin" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_spawn" value="20"/>
     <property name="max_beings" value="30"/>
     <property name="monster_id" value="9"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="2368" y="1664" width="32" height="32">
+  <object name="FireSkull" type="spawn" x="2368" y="1664" width="32" height="32">
    <properties>
     <property name="eA_death" value="2000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="3680" y="3712" width="32" height="32">
+  <object name="FireSkull" type="spawn" x="3680" y="3712" width="32" height="32">
    <properties>
     <property name="eA_death" value="2000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="Evil Mushroom" type="spawn" x="0" y="0">
+  <object name="EvilMushroom" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_spawn" value="20"/>
     <property name="max_beings" value="10"/>

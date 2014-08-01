@@ -200,7 +200,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="1024" y="1216" width="160" height="224">
+  <object name="MountainSnake" type="spawn" x="1024" y="1216" width="160" height="224">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="30000"/>
@@ -208,7 +208,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="1344" y="832" width="896" height="768">
+  <object name="MountainSnake" type="spawn" x="1344" y="832" width="896" height="768">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="eA_spawn" value="150000"/>
@@ -216,7 +216,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="2336" y="640" width="1088" height="448">
+  <object name="MountainSnake" type="spawn" x="2336" y="640" width="1088" height="448">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -224,7 +224,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="3424" y="736" width="736" height="1312">
+  <object name="MountainSnake" type="spawn" x="3424" y="736" width="736" height="1312">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -232,7 +232,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="3584" y="1536" width="224" height="128">
+  <object name="MountainSnake" type="spawn" x="3584" y="1536" width="224" height="128">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -240,7 +240,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="2240" y="1344" width="1184" height="384">
+  <object name="MountainSnake" type="spawn" x="2240" y="1344" width="1184" height="384">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -248,7 +248,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="2976" y="2048" width="832" height="544">
+  <object name="MountainSnake" type="spawn" x="2976" y="2048" width="832" height="544">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -256,7 +256,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="2144" y="3040" width="544" height="736">
+  <object name="MountainSnake" type="spawn" x="2144" y="3040" width="544" height="736">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -264,7 +264,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="2688" y="2656" width="1184" height="960">
+  <object name="MountainSnake" type="spawn" x="2688" y="2656" width="1184" height="960">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -272,7 +272,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="1312" y="1600" width="1600" height="992">
+  <object name="MountainSnake" type="spawn" x="1312" y="1600" width="1600" height="992">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -280,7 +280,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="2432" y="3648" width="1248" height="448">
+  <object name="MountainSnake" type="spawn" x="2432" y="3648" width="1248" height="448">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -288,7 +288,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Mountain Snake" type="spawn" x="1280" y="3744" width="960" height="256">
+  <object name="MountainSnake" type="spawn" x="1280" y="3744" width="960" height="256">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>

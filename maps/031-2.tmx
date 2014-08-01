@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="100" height="50" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
   <property name="name" value="Angela's House"/>
@@ -49,8 +49,7 @@
    H4sIAAAAAAAAA+3SwQqEMAxF0dL//+hZuZEsgkZixlM4IK7epd1rrQ0AAAAAAAAAAHzaesGGiobj7NP3NNHp3lTRMK0ps31CR9QS/e/eWPGmJnRku7p3Veye0PEv9xFt797z1F1MaMue7p13e7p3XW3p3qADAAAAAAAAgIwfRnE0hyBOAAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="100" height="50">
-  <object x="736" y="960" width="32" height="32"/>
+ <objectgroup name="Objects">
   <object name="To Outside" type="warp" x="736" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-1"/>

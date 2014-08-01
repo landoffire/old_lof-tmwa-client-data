@@ -122,7 +122,7 @@
     <property name="monster_id" value="38"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="672" y="960" width="2144" height="1504">
+  <object name="FireSkull" type="spawn" x="672" y="960" width="2144" height="1504">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="60000"/>
@@ -130,7 +130,7 @@
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="Poison Skull" type="spawn" x="672" y="960" width="2144" height="1504">
+  <object name="PoisonSkull" type="spawn" x="672" y="960" width="2144" height="1504">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="60000"/>
@@ -146,7 +146,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="Lady Skeleton" type="spawn" x="672" y="960" width="2144" height="1504">
+  <object name="LadySkeleton" type="spawn" x="672" y="960" width="2144" height="1504">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
@@ -162,7 +162,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="Lady Skeleton" type="spawn" x="1792" y="960" width="1024" height="736">
+  <object name="LadySkeleton" type="spawn" x="1792" y="960" width="1024" height="736">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="175000"/>
@@ -170,7 +170,7 @@
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="672" y="960" width="1088" height="736">
+  <object name="FireSkull" type="spawn" x="672" y="960" width="1088" height="736">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="eA_spawn" value="200000"/>
@@ -178,7 +178,7 @@
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="Poison Skull" type="spawn" x="672" y="960" width="1088" height="736">
+  <object name="PoisonSkull" type="spawn" x="672" y="960" width="1088" height="736">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="eA_spawn" value="200000"/>
@@ -194,7 +194,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="Lady Skeleton" type="spawn" x="672" y="960" width="1088" height="736">
+  <object name="LadySkeleton" type="spawn" x="672" y="960" width="1088" height="736">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="180000"/>
@@ -202,7 +202,7 @@
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="2848" y="960" width="1056" height="704">
+  <object name="FireSkull" type="spawn" x="2848" y="960" width="1056" height="704">
    <properties>
     <property name="eA_death" value="25000"/>
     <property name="eA_spawn" value="28000"/>
@@ -210,7 +210,7 @@
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="Poison Skull" type="spawn" x="2848" y="960" width="1056" height="704">
+  <object name="PoisonSkull" type="spawn" x="2848" y="960" width="1056" height="704">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="30000"/>
@@ -226,7 +226,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="Lady Skeleton" type="spawn" x="2848" y="960" width="1056" height="704">
+  <object name="LadySkeleton" type="spawn" x="2848" y="960" width="1056" height="704">
    <properties>
     <property name="eA_death" value="25000"/>
     <property name="eA_spawn" value="33000"/>
@@ -234,7 +234,7 @@
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="Jack O" type="spawn" x="864" y="2154" width="96" height="64">
+  <object name="JackO" type="spawn" x="864" y="2154" width="96" height="64">
    <properties>
     <property name="eA_death" value="200000"/>
     <property name="eA_spawn" value="265000"/>

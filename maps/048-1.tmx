@@ -79,29 +79,29 @@
  <objectgroup name="Objects" width="178" height="128">
   <object name="Reinboo" type="spawn" x="0" y="0">
    <properties>
-    <property name="eAthena_death" value="30000"/>
-    <property name="eAthena_spawn" value="100000"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="92"/>
    </properties>
   </object>
   <object name="Fluffy" type="spawn" x="0" y="0">
    <properties>
-    <property name="eAthena_death" value="30000"/>
-    <property name="eAthena_spawn" value="100000"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="25"/>
     <property name="monster_id" value="18"/>
    </properties>
   </object>
   <object name="Squirrel" type="spawn" x="0" y="0">
    <properties>
-    <property name="eAthena_death" value="30000"/>
-    <property name="eAthena_spawn" value="100000"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="25"/>
     <property name="monster_id" value="36"/>
    </properties>
   </object>
-  <object name="White Bell" type="spawn" x="0" y="0">
+  <object name="WhiteBell" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -109,7 +109,7 @@
     <property name="monster_id" value="93"/>
    </properties>
   </object>
-  <object name="White Slime" type="spawn" x="2144" y="1248" width="96" height="96">
+  <object name="WhiteSlime" type="spawn" x="2144" y="1248" width="96" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -117,7 +117,7 @@
     <property name="monster_id" value="91"/>
    </properties>
   </object>
-  <object name="Blue Slime" type="spawn" x="2240" y="1888" width="160" height="192">
+  <object name="BlueSlime" type="spawn" x="2240" y="1888" width="160" height="192">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -146,7 +146,7 @@
     <property name="dest_y" value="1536"/>
    </properties>
   </object>
-  <object name="White Slime" type="spawn" x="1504" y="1152" width="96" height="96">
+  <object name="WhiteSlime" type="spawn" x="1504" y="1152" width="96" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -154,7 +154,7 @@
     <property name="monster_id" value="91"/>
    </properties>
   </object>
-  <object name="White Slime" type="spawn" x="2272" y="928" width="96" height="96">
+  <object name="WhiteSlime" type="spawn" x="2272" y="928" width="96" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -162,7 +162,7 @@
     <property name="monster_id" value="91"/>
    </properties>
   </object>
-  <object name="Blue Slime" type="spawn" x="1888" y="1536" width="160" height="192">
+  <object name="BlueSlime" type="spawn" x="1888" y="1536" width="160" height="192">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -170,7 +170,7 @@
     <property name="monster_id" value="89"/>
    </properties>
   </object>
-  <object name="Blue Slime" type="spawn" x="1888" y="1056" width="160" height="192">
+  <object name="BlueSlime" type="spawn" x="1888" y="1056" width="160" height="192">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -178,7 +178,7 @@
     <property name="monster_id" value="89"/>
    </properties>
   </object>
-  <object name="White Slime" type="spawn" x="1312" y="768" width="96" height="96">
+  <object name="WhiteSlime" type="spawn" x="1312" y="768" width="96" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>

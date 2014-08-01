@@ -62,7 +62,7 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="140" height="140">
-  <object name="Spiky Mushroom" type="spawn" x="3264" y="1920" width="896" height="832">
+  <object name="SpikyMushroom" type="spawn" x="3264" y="1920" width="896" height="832">
    <properties>
     <property name="eA_death" value="600"/>
     <property name="eA_spawn" value="20000"/>
@@ -102,7 +102,7 @@
     <property name="monster_id" value="45"/>
    </properties>
   </object>
-  <object name="Sea Slime" type="spawn" x="512" y="1920" width="1248" height="320">
+  <object name="SeaSlime" type="spawn" x="512" y="1920" width="1248" height="320">
    <properties>
     <property name="eA_death" value="1200"/>
     <property name="eA_spawn" value="100000"/>
@@ -110,7 +110,7 @@
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object name="Sea Slime" type="spawn" x="1088" y="2240" width="736" height="352">
+  <object name="SeaSlime" type="spawn" x="1088" y="2240" width="736" height="352">
    <properties>
     <property name="eA_death" value="1200"/>
     <property name="eA_spawn" value="100000"/>

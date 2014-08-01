@@ -66,7 +66,7 @@
     <property name="dest_y" value="1152"/>
    </properties>
   </object>
-  <object name="Drunken Skeleton" type="spawn" x="2432" y="1184" width="384" height="320">
+  <object name="DrunkenSkeleton" type="spawn" x="2432" y="1184" width="384" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -74,7 +74,7 @@
     <property name="monster_id" value="75"/>
    </properties>
   </object>
-  <object name="Tipsy Skeleton" type="spawn" x="2752" y="1088" width="384" height="320">
+  <object name="TipsySkeleton" type="spawn" x="2752" y="1088" width="384" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -82,7 +82,7 @@
     <property name="monster_id" value="76"/>
    </properties>
   </object>
-  <object name="Tipsy Skeleton" type="spawn" x="3360" y="672" width="384" height="384">
+  <object name="TipsySkeleton" type="spawn" x="3360" y="672" width="384" height="384">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -90,7 +90,7 @@
     <property name="monster_id" value="76"/>
    </properties>
   </object>
-  <object name="Drunken Skeleton" type="spawn" x="3168" y="768" width="384" height="320">
+  <object name="DrunkenSkeleton" type="spawn" x="3168" y="768" width="384" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -98,7 +98,7 @@
     <property name="monster_id" value="75"/>
    </properties>
   </object>
-  <object name="Drunken Lady Skeleton" type="spawn" x="2688" y="960" width="384" height="320">
+  <object name="DrunkenLadySkeleton" type="spawn" x="2688" y="960" width="384" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -106,7 +106,7 @@
     <property name="monster_id" value="77"/>
    </properties>
   </object>
-  <object name="Drunken Lady Skeleton" type="spawn" x="3552" y="704" width="384" height="320">
+  <object name="DrunkenLadySkeleton" type="spawn" x="3552" y="704" width="384" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>

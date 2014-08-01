@@ -67,7 +67,7 @@
     <property name="dest_y" value="640"/>
    </properties>
   </object>
-  <object name="Sea Slime" type="spawn" x="1120" y="1376" width="288" height="960">
+  <object name="SeaSlime" type="spawn" x="1120" y="1376" width="288" height="960">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -75,7 +75,7 @@
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object name="Sea Slime" type="spawn" x="928" y="2016" width="320" height="1312">
+  <object name="SeaSlime" type="spawn" x="928" y="2016" width="320" height="1312">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -83,7 +83,7 @@
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object name="Sea Slime" type="spawn" x="736" y="3072" width="384" height="480">
+  <object name="SeaSlime" type="spawn" x="736" y="3072" width="384" height="480">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -91,7 +91,7 @@
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object name="Giant Maggot" type="spawn" x="1856" y="3008" width="896" height="672">
+  <object name="GiantMaggot" type="spawn" x="1856" y="3008" width="896" height="672">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -99,7 +99,7 @@
     <property name="monster_id" value="4"/>
    </properties>
   </object>
-  <object name="Red Scorpion" type="spawn" x="2112" y="1408" width="704" height="1600">
+  <object name="RedScorpion" type="spawn" x="2112" y="1408" width="704" height="1600">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -107,7 +107,7 @@
     <property name="monster_id" value="2"/>
    </properties>
   </object>
-  <object name="Giant Maggot" type="Spawn" x="1888" y="640" width="640" height="352">
+  <object name="GiantMaggot" type="Spawn" x="1888" y="640" width="640" height="352">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -115,7 +115,7 @@
     <property name="monster_id" value="4"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="2944" y="832" width="96" height="128">
+  <object name="BlackScorpion" type="spawn" x="2944" y="832" width="96" height="128">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>

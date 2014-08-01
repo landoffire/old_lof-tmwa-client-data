@@ -43,12 +43,12 @@
   <object name="Silkworm" type="spawn" x="1280" y="1344" width="736" height="512">
    <properties>
     <property name="eA_death" value="3000"/>
-    <property name="e_spawn" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object name="Evil Mushroom" type="spawn" x="1376" y="1120" width="32" height="32">
+  <object name="EvilMushroom" type="spawn" x="1376" y="1120" width="32" height="32">
    <properties>
     <property name="eA_death" value="5000"/>
     <property name="eA_spawn" value="40000"/>
@@ -56,7 +56,7 @@
     <property name="monster_id" value="11"/>
    </properties>
   </object>
-  <object name="Evil Mushroom" type="spawn" x="864" y="992" width="32" height="32">
+  <object name="EvilMushroom" type="spawn" x="864" y="992" width="32" height="32">
    <properties>
     <property name="eA_death" value="5000"/>
     <property name="eA_spawn" value="40000"/>
